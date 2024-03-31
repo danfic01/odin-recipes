@@ -1,3 +1,56 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:lightgray;
+    color:slateblue;
+}
+
+li {
+    list-style: none;
+}
+
+.card {
+    margin: 0 auto;
+    width: 800px;
+    padding: 16px 24px;
+}
+
+.card * {
+    background-color:white;
+    margin: 0;
+    padding: 16px 24px;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.card h1, .card h2 {
+    background-color: slateblue;
+    color: white;
+}
+
+.img-container {
+    background-color: white;
+}
+
+.card img {
+    padding: 0;
+    margin-left: 60px;
+}
+
+.ingredients {
+    display: inline-block;
+    padding: 0;
+    width: 50%;
+
+}
+
+.ingredients h2 {
+    padding: 0;
+    background-color: white;
+    color: slateblue;
+}
+
+.ingredients li {
+    list-style: circle;
 }
